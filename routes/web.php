@@ -19,3 +19,7 @@ Route:: get('/product/{id}', function(string $id){
 Route:: get('/user',function(string $user){
     return view('',['user'=>$user]);
 });
+
+Route::get('/blog1', function(string $blog1){
+    return $blog1;
+});
